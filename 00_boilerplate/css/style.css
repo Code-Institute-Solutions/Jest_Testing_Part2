@@ -1,0 +1,67 @@
+.container {
+    position: relative;
+}
+.circle {
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+.circle1 {
+    height: 500px;
+    width: 500px;
+    background-color: darkred;
+}
+
+.circle2 {
+    height: 400px;
+    width: 400px;
+    background-color: darkblue;
+    top: 50px;
+    left: 50px;
+}
+.circle3 {
+    height: 300px;
+    width: 300px;
+    background-color: darkgreen;
+    top: 100px;
+    left: 100px;
+}
+.circle4 {
+    height: 200px;
+    width: 200px;
+    background-color: darkorange;
+    top: 150px;
+    left: 150px;
+}
+
+.scorebox {
+    border-radius: 25%;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: darkgrey;
+    height: 80px;
+    width: 80px;
+    top: 210px;
+    left: 210px;
+    text-align: center;
+    color: oldlace;
+    font-family: sans-serif;
+    font-size: 3em;
+    padding-top: 15px;
+}
+
+.button1light {
+    background-color: lightcoral;
+}
+
+.button2light {
+    background-color: lightblue;
+}
+
+.button3light {
+    background-color: lightgreen;
+}
+
+.button4light {
+    background-color: yellow;
+}

@@ -29,10 +29,10 @@ describe("game object contains correct keys", () => {
 
 describe("newGame works correctly", () => {
     beforeAll(() => {
-        game.score = 10;
+        game.score = 42;
         game.playerMoves = ["button1", "button2"];
-        game.currentGame = [];
-        document.getElementById("score").innerText = "2";
+        game.currentGame = ["button1", "button2"];
+        document.getElementById("score").innerText = "42";
         newGame();
     });
     test("should set game score to zero", () => {
@@ -44,7 +44,7 @@ describe("newGame works correctly", () => {
     test("should clear the player moves array", () => {
         expect(game.playerMoves.length).toBe(0);
     });
-    test("should add one move to the computer's game array", () => {
-        expect(game.currentGame.length).toBe(1);
+    test("should clear the computer sequence array", () => {
+        expect(game.currentGame.length).toBe(0);
     });
 });

@@ -1,5 +1,24 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+h1 {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 200;
+    margin-top: 10px;
+}
+
 .container {
     position: relative;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    text-align: center;
 }
 .circle {
     border-radius: 50%;
@@ -9,27 +28,27 @@
 .circle1 {
     height: 500px;
     width: 500px;
-    background-color: darkred;
+    background-color: #009FE3;
 }
 
 .circle2 {
     height: 400px;
     width: 400px;
-    background-color: darkblue;
+    background-color: #445261;
     top: 50px;
     left: 50px;
 }
 .circle3 {
     height: 300px;
     width: 300px;
-    background-color: darkgreen;
+    background-color: #EFB920;
     top: 100px;
     left: 100px;
 }
 .circle4 {
     height: 200px;
     width: 200px;
-    background-color: darkorange;
+    background-color: #23BBBB;
     top: 150px;
     left: 150px;
 }
@@ -38,30 +57,43 @@
     border-radius: 25%;
     box-sizing: border-box;
     position: absolute;
-    background-color: darkgrey;
+    background-color: #E6ECF0;
     height: 80px;
     width: 80px;
     top: 210px;
     left: 210px;
     text-align: center;
-    color: oldlace;
-    font-family: sans-serif;
+    color: #445261;
     font-size: 3em;
-    padding-top: 15px;
+    padding-top: 10px;
+}
+
+.button {
+    background-color: #FF5A60;
+    color: #FFF;
+    border: 0;
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    top: 550px;
+    position: relative;
+    font-weight: 600;
 }
 
 .button1light {
-    background-color: lightcoral;
+    background-color: #b3e8ff;
 }
 
 .button2light {
-    background-color: lightblue;
+    background-color: #e1e5ea;
 }
 
 .button3light {
-    background-color: lightgreen;
+    background-color: #fcf0cf;
 }
 
 .button4light {
-    background-color: yellow;
+    background-color: #d4f7f7;
 }

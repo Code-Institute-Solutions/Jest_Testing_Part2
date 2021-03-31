@@ -82,18 +82,6 @@ h2 {
     font-weight: 600;
 }
 
-.button1light {
-    background-color: #b3e8ff;
-}
-
-.button2light {
-    background-color: #e1e5ea;
-}
-
-.button3light {
-    background-color: #fcf0cf;
-}
-
-.button4light {
-    background-color: #d4f7f7;
+.light {
+    opacity: 0.4;
 }

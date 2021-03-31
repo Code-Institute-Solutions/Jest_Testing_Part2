@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jest Simon Game</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>simon</h1>
+        <h2>memory game</h2>
+    </div>
+    <div class="container">
+        <div data-listener="false" class="circle circle1" id="button1"></div>
+        <div data-listener="false" class="circle circle2" id="button2"></div>
+        <div data-listener="false" class="circle circle3" id="button3"></div>
+        <div data-listener="false" class="circle circle4" id="button4"></div>
+        <div class="scorebox" id="score">0</div>
+        <button class="button" onclick="newGame()">new game</button>
+    </div>
+    <script src="scripts/game.js"></script>
+</body>
+
+</html>

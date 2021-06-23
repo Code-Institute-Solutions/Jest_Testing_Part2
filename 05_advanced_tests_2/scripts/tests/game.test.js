@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 const { game, newGame, showScore, addTurn, lightsOn } = require("../game");
 
 beforeAll(() => {
